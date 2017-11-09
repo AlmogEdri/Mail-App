@@ -1,0 +1,77 @@
+
+.envelope {
+  position: relative;
+  margin: 50px auto 0;
+  width: 98px;
+  height: 66px;
+  background: #c94548;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 0 1px #c94548 inset;
+}
+.envelope:before,
+.envelope:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-width: 33px 49px;
+}
+.envelope:before {
+  border-bottom-color: #c94548;
+  top: -100%;
+  left: 0px;
+}
+.envelope:after {
+  border-right-color: $envelope-right;
+  border-left-color: $envelope-left;
+  border-bottom-color: $envelope-buttom;
+  top: 0;
+  border-radius: 0 0 2px 2px;
+  transform: rotate(360deg);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.25);
+}
+
+.paper {
+  background: $envelope-paper;
+  width: px2rem(76);
+  height: px2rem(66);
+  margin: 0 px2rem(-5);
+  position: absolute;
+  left: px2rem(6);
+  top: px2rem(-33);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.25);
+}
+.paper:before,
+.paper:after {
+  content: '';
+  position: absolute;
+  left: px2rem(12);
+  background: $envelope-paper;
+  height: px2rem(4);
+  border-radius: px2rem(5);
+}
+
+.folding{
+  background: $envelope-folding;
+  width: px2rem(6);
+  height: px2rem(6);
+  margin: 0 auto;
+  position: absolute;
+  left: px2rem(6);
+  top: px2rem(-33);
+}
+.envelope-container{
+  width: 107px;
+  height: 400px;
+  left: 25%;
+  margin-top: 390px;
+  position: relative;
+    p{
+      color: white;
+
+    }
+    .envelope{
+      margin: auto auto auto 10%;
+    }
+}

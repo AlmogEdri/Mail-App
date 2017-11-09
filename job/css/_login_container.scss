@@ -1,0 +1,31 @@
+
+
+
+.login_container{
+  position:fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  max-width: px2rem($box_width);
+  height: px2rem($box_height);
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: $login_box-color;
+  margin: auto;
+  padding-top: px2rem(5);
+  display: block;
+
+}
+
+.login_container:after{
+  position: absolute;
+  width: px2rem($side-box);
+  height: px2rem($side-box);
+  top:13%;
+  margin-left: -2%;
+  content: '';
+  transform: rotate(45deg);
+  border-radius: 1px;
+  background: $login_box-color;
+}

@@ -1,0 +1,25 @@
+// Colors
+$background-color: #1BBC9B;
+$login_box-color: #EEEFF1;
+$login_form-text_filed: #FFFFFF;
+$login_form-text:#C0C3C4;
+$login_form-btn:#15BE97;
+$login_form-btn_text:#CAF9F6;
+$login_form-link:#CED2D5;
+$envelope-right: #E57D25;
+$envelope-left: #F0C312;
+$envelope-top: #FBFBFA;
+$envelope-buttom: #F29A13;
+$envelope-paper:#FFFFFF;
+$envelope-folding:#E44740;
+// Typography
+$default-font-weight: 100;
+$default-font-size: 16;
+
+// Layout
+$max_width: 960px;
+
+$box-width: 387;
+$box-height: $box-width*.68;
+$side-box:20;
+$envelope:$box-height/2;

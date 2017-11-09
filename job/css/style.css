@@ -1,0 +1,214 @@
+body {
+  background-color: #1BBC9B;
+  display: table;
+  position: static;
+  height: 100%;
+  width: 100%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif; }
+
+.envelope {
+  position: relative;
+  margin: 50px auto 0;
+  width: 98px;
+  height: 66px;
+  background: #c94548;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 0 1px #c94548 inset; }
+
+.envelope:before,
+.envelope:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-width: 33px 49px; }
+
+.envelope:before {
+  border-bottom-color: #c94548;
+  top: -100%;
+  left: 0px; }
+
+.envelope:after {
+  border-right-color: #E57D25;
+  border-left-color: #F0C312;
+  border-bottom-color: #F29A13;
+  top: 0;
+  border-radius: 0 0 2px 2px;
+  transform: rotate(360deg);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); }
+
+.paper {
+  background: #FFFFFF;
+  width: 4.75rem;
+  height: 4.125rem;
+  margin: 0 -0.3125rem;
+  position: absolute;
+  left: 0.375rem;
+  top: -2.0625rem;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); }
+
+.paper:before,
+.paper:after {
+  content: '';
+  position: absolute;
+  left: 0.75rem;
+  background: #FFFFFF;
+  height: 0.25rem;
+  border-radius: 0.3125rem; }
+
+.folding {
+  background: #E44740;
+  width: 0.375rem;
+  height: 0.375rem;
+  margin: 0 auto;
+  position: absolute;
+  left: 0.375rem;
+  top: -2.0625rem; }
+
+.envelope-container {
+  width: 107px;
+  height: 400px;
+  left: 25%;
+  margin-top: 390px;
+  position: relative; }
+  .envelope-container p {
+    color: white; }
+  .envelope-container .envelope {
+    margin: auto auto auto 10%; }
+
+.login_container {
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  max-width: 24.1875rem;
+  height: 16.4475rem;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #EEEFF1;
+  margin: auto;
+  padding-top: 0.3125rem;
+  display: block; }
+
+.login_container:after {
+  position: absolute;
+  width: 1.25rem;
+  height: 1.25rem;
+  top: 13%;
+  margin-left: -2%;
+  content: '';
+  transform: rotate(45deg);
+  border-radius: 1px;
+  background: #EEEFF1; }
+
+.contact_form input, .contact_form button {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: #FFFFFF;
+  color: #C0C3C4;
+  font-weight: lighter;
+  border: none;
+  width: 100%;
+  border-radius: 0.3125rem;
+  box-sizing: border-box;
+  padding: 0.625rem 1.75rem 0.5rem 1.75rem;
+  display: block;
+  margin: 1.1em 0;
+  font-size: 1.125rem; }
+
+.contact_form {
+  width: 87.5%;
+  margin: 0.625rem auto 0.5rem auto; }
+  .contact_form button {
+    background-color: #15BE97;
+    color: #CAF9F6;
+    font-weight: 300; }
+  .contact_form span a:hover, .contact_form span a:visited, .contact_form span a:link, .contact_form span a:active {
+    display: inline-block;
+    color: #CED2D5;
+    width: 100%;
+    text-align: center;
+    font-size: 0.875rem; }
+
+.contact_form-name:after {
+  position: absolute;
+  z-index: 2;
+  right: 5px;
+  color: #999999;
+  top: 10px;
+  content: '0sae0';
+  font-family: FontAwesome; }
+
+.envelope {
+  position: relative;
+  margin: 50px auto 0;
+  width: 98px;
+  height: 66px;
+  background: #c94548;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 0 1px #c94548 inset; }
+
+.envelope:before,
+.envelope:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-width: 33px 49px; }
+
+.envelope:before {
+  border-bottom-color: #c94548;
+  top: -100%;
+  left: 0px; }
+
+.envelope:after {
+  border-right-color: #E57D25;
+  border-left-color: #F0C312;
+  border-bottom-color: #F29A13;
+  top: 0;
+  border-radius: 0 0 2px 2px;
+  transform: rotate(360deg);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); }
+
+.paper {
+  background: #FFFFFF;
+  width: 4.75rem;
+  height: 4.125rem;
+  margin: 0 -0.3125rem;
+  position: absolute;
+  left: 0.375rem;
+  top: -2.0625rem;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); }
+
+.paper:before,
+.paper:after {
+  content: '';
+  position: absolute;
+  left: 0.75rem;
+  background: #FFFFFF;
+  height: 0.25rem;
+  border-radius: 0.3125rem; }
+
+.folding {
+  background: #E44740;
+  width: 0.375rem;
+  height: 0.375rem;
+  margin: 0 auto;
+  position: absolute;
+  left: 0.375rem;
+  top: -2.0625rem; }
+
+.envelope-container {
+  width: 107px;
+  height: 400px;
+  left: 25%;
+  margin-top: 390px;
+  position: relative; }
+  .envelope-container p {
+    color: white; }
+  .envelope-container .envelope {
+    margin: auto auto auto 10%; }
+
+/*# sourceMappingURL=style.css.map */
