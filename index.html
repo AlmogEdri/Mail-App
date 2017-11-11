@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mail App</title>
+
+  <link rel="stylesheet" href="fonts/font-awesome.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+  <div class="login_container" id="login_container">
+
+
+
+    <form action="#" class="contact_form">
+
+      <div>
+          <input type="text" placeholder="Enter your name" name="name" class="contact_form-name" required>
+          <i class="fa fa-user" aria-hidden="true" id="user"></i>
+
+          <input type="password" placeholder="Password" name="psw" class="contact_form-pass" required>
+          <i class="fa fa-lock" aria-hidden="true" id="lock"></i>
+
+        <div class="contact_form-div_login">
+
+          <button type="submit" id="submit" class="submit">
+            <div class="contact_form-div_login" >
+            <i class="fa fa-spinner fa-pulse fa-x fa-fw spiner"  id="spin" style="visibility: hidden"></i> Login </button>
+
+        </div>
+          <span class="psw"><a href="#">Forgot your password?</a></span>
+      </div>
+
+    </form>
+    <div class="envelope_container" id="envelope_container">
+      <div class="envelope">
+        <div class="paper">
+          <div class="folding"></div>
+        </div>
+      </div><br><br>
+      <p>Welcome to</p><br>
+      <p style="font-weight: bold";>Mail App</p>
+    </div>
+  </div>
+
+
+  <script>
+  document.getElementById("submit").addEventListener("click", showSpin);
+
+  function showSpin() {
+    document.getElementById("spin").style.visibility = 'visible';
+}
+  </script>
+
+
+</body>
+</html
